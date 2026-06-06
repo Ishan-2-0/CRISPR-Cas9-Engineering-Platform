@@ -1,0 +1,306 @@
+{
+  "CCR5": {
+    "question": "What is the best guide RNA sequence for knocking out CCR5 in human T-cells for HIV resistance? What design criteria should I use?",
+    "response": "The top-ranked guide RNA sequence for knocking out CCR5 in human T-cells based on provided scores is:\n\n**CCTCACTGCAAGCACTGCAT | Score: 90/100**\n\nThis sequence has the highest score among those listed, indicating it may be more effective than others due to better alignment with scoring criteria such as GC-content, seed region quality, complexity, position relative to target site, etc.\n\nWhen designing guide RNAs for knockout purposes, consider the following key criteria from [4]:\n\n1. **GC Content**: Aim for around 55%, though slight variations can still work well within certain ranges.\n   \n2. **Seed Region Quality**: The central part of the guide RNA must align precisely with the targeted DNA sequence without mismatches.\n\n3. **Poly-T Avoidance**: Minimize runs of consecutive thymidines (poly-Ts).\n\n4. **Complexity**: Ensure the sequence does not have repetitive patterns that could reduce specificity.\n\n5. **Target Position**: Place the guide RNA near the start of the deletion region if possible; positions like 2061 mentioned here might be optimal depending on your precise genomic location of interest.\n\nThese guidelines help ensure high efficiency while minimizing off",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Genome editing of CCR5 by AsCpf1 renders CD4(+)T cells resistance to HIV-1 infection."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "the CCR5 receptor important for HIV-1 infection. Two single guide RNAs (sgRNAs) were designed that flank the 32 bases deleted in the natural CCR5 ∆32 mutation. Nanopore sequencing demonstrated that Ca"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: CCR5 Targeted Cell Therapy for HIV and Prevention of Viral Escape."
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for CCR5 gene targeting HIV.\nComputationally ranked guide RNA sequences for CCR5 using CRISPR-Cas9.\nUse these sequences for experimental design. All require wet lab val"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: In this preclinical study, we evaluated the efficacy and feasibility of creating broad human immunodeficiency virus (HIV) resistance by simultaneously disrupting the human CCR5 and CXCR4 gen"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "particles for transient exposure and showed its effectiveness for gene disruption in cells, including primary T cells expressing specific single guide RNAs (sgRNAs). We then constructed an 'all in one"
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "HBB": {
+    "question": "How should I design a guide RNA to correct the sickle cell mutation in the HBB gene? What region should I target?",
+    "response": "To design a guide RNA for correcting the sickle cell mutation in the HBB gene, you can use one of the top-ranked sequences provided:\n\n**Guide RNA Sequence:** GCTCACCTGGACAACCTCAA | Score: 90/100 | GC Content: 55.0%\n\nThis sequence targets position 278 within the HBB gene according to computational scoring. The high score indicates it's an effective candidate for guiding Cas9 nuclease activity towards this specific location, which could be crucial for making precise edits near known mutational sites associated with sickle cell disease.\n\nEnsure all selected guides undergo further laboratory testing before proceeding with any therapeutic applications due to off-target risks highlighted in your scores. Always validate experimentally under controlled conditions.",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: A Universal Approach to Correct Various HBB Gene Mutations in Human Stem Cells for Gene Therapy of Beta-Thalassemia and Sickle Cell Disease."
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for HBB gene targeting Sickle Cell.\nComputationally ranked guide RNA sequences for HBB using CRISPR-Cas9.\nUse these sequences for experimental design. All require wet l"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "gene editing; and single base repair. We took a combinatorial approach using single-stranded oligonucleotide and a CRISPR/Cas9 ribonucleoprotein to convert wild-type HBB into the sickle cell genotype "
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Genome editing for sickle cell disease: still time to correct?"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Sickle cell disease (SCD) is a common, life-threatening group of disorders caused by missense mutations in the beta-globin gene (HBB). Mouse models have helped to elucidate the most common f"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Sickle cell disease (SCD) is caused by a mutation in the beta-globin gene HBB(1). We used a custom adenine base editor (ABE8e-NRCH)(2,3) to convert the SCD allele (HBB(S)) into Makassar beta"
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "HTT": {
+    "question": "What guide RNA design strategy should I use to silence the HTT gene for Huntington's disease therapy?",
+    "response": "For designing guide RNA to silence the HTT gene in Huntington's disease therapy, you can utilize the top-ranked guide RNA sequences provided from computational scoring:\n\n**Guide RNA Sequence:** CCTGCCATGGACCTGAATGA  \n**Score:** 90/100  \n**GC Content:** 55.0%\n**Seed Region Position:** 1780  \n\nThis sequence ranks first among those evaluated based on multiple factors including GC content, seed region position, poly-T avoidance, complexity, and off-target risk assessment. It targets a specific location within the HTT gene, which could be effective for reducing expression levels of the mutant HTT protein associated with Huntington’s disease. Ensure all selected guides undergo thorough wet laboratory testing before proceeding with any experiments involving genetic modification. \n\nNote that while this approach shows promise computationally, further experimentation will validate efficacy and safety profiles under controlled conditions. Additionally, consider exploring alternative strategies like RNA interference or chemical inhibitors if needed.",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Gene targeting techniques for Huntington's disease."
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for HTT gene targeting Huntington's.\nComputationally ranked guide RNA sequences for HTT using CRISPR-Cas9.\nUse these sequences for experimental design. All require wet "
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "gene; and somatic expansion of the CAG repeat in the HTT gene. Potential interventions for Huntington's disease include therapies targeting huntingtin DNA and RNA, clearance of huntingtin protein, DNA"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Huntington's Disease (HD) is a monogenetic neurodegenerative disorder mainly caused by the cytotoxicity of the mutant HTT protein (mHTT) encoded by the mutant HTT gene. Lowering HTT mRNA has"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Dominant gain-of-function mechanisms in Huntington's disease (HD) suggest that selective silencing of mutant HTT produces robust therapeutic benefits. Here, capitalizing on exonic protospace"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "nucleases, and CRISPR/Cas9; post-transcriptional huntingtin-lowering approaches such as RNAi, antisense oligonucleotides, and small-molecule splicing modulators; and novel methods to clear the mHTT pr"
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "DMD": {
+    "question": "How do I design a guide RNA for exon skipping in the DMD gene to treat Duchenne muscular dystrophy?",
+    "response": "To design a guide RNA for exon skipping in the DMD gene to treat Duchenne Muscular Dystrophy (DMD), you can follow these steps based on the provided information:\n\n1. **Identify Target Exons**: Focus on exons that, when skipped, restore an open reading frame (ORF) leading to production of a truncated yet functional form of dystrophin. For example, targeting exon 50 or exon 51 could be effective since deleting them restores the ORF downstream.\n\n2. **Select Guide RNA Sequences**:\n   - Use top-ranked sequences computationally designed for DMD gene targeting. The highest scoring guides have scores around 88 out of 100.\n     - Rank 1: TGACCCAGAAGACGGAAGCA | Score: 88/100 | Position: 2143\n     - Rank 2: AGGAGACCATGAGTGCCATC | Score: 88/100 | Position: 3070\n     - Rank 3: TGGCTCTGCACTAGGCTGAA | Score: 88/100 | Position: 3",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Duchenne muscular dystrophy (DMD) is a severe neuromuscular disease arising from loss-of-function mutations in the dystrophin gene and characterized by progressive muscle degeneration, respi"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "to maximize the experimental outcome. Here, we summarize the current knowledge for guide RNA design and highlight discrepancies between different experimental systems."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "BMD via the clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated protein 9 (Cas9). In brief, adeno-associated virus (AAV) vectors transport guided RNAs (gRNAs) and Cas9"
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for DMD gene targeting Duchenne MD.\nComputationally ranked guide RNA sequences for DMD using CRISPR-Cas9.\nUse these sequences for experimental design. All require wet l"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "frame of exon 51 in mice and dogs with exon 50 deletions. Due to genomic sequence variations between species, the single guide RNAs (sgRNAs) used for DMD gene editing are often not conserved, impeding"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "muscle function, and increased survival of mdx mice significantly. This review concisely summarized the related advancements and discussed their primary implications in the future gene therapy of DMD,"
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "CFTR": {
+    "question": "What is the best approach to design a guide RNA targeting the F508del mutation region in CFTR for cystic fibrosis?",
+    "response": "The top-ranked guide RNA sequence with the highest score for targeting the CFTR gene, specifically relevant to cystic fibrosis, is:\n\n**Guide RNA Sequence:** TGCAAGTGGCACTCCTCATG | Score: **87/100**\n\nThis sequence has been computationally scored based on several factors including GC content (55%), seed region optimization, complexity, position relative to the target site, and off-target risk assessment (<built-in function OCT>). It targets the CFTR gene at Position 686, which could be effective against certain types of CFTR gene mutations associated with cystic fibrosis, such as those involving the F508del mutation.\n\nFor optimal design, consider validating this sequence experimentally before proceeding further due to inherent limitations noted during computational scoring methods. Additionally, ensure thorough testing for specificity and efficiency through wet-lab experiments. [PubMed Source](https://pubmed.ncbi.nlm.nih.gov/) provides comprehensive reviews that can offer more detailed guidance tailored to specific mutational contexts within the CFTR gene. \n\nNote: Always validate any designed guide RNA thoroughly under controlled laboratory conditions prior to clinical application.",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "offering a permanent treatment by fixing the root cause of CF. This article summarizes cystic fibrosis development, prognosis, and diagnosis, as well as possibilities for correcting various types of C"
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for CFTR gene targeting Cystic Fibrosis.\nComputationally ranked guide RNA sequences for CFTR using CRISPR-Cas9.\nUse these sequences for experimental design. All require"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: CRISPR for cystic fibrosis: Advances and insights from a systematic review."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "strongest sup-tRNA potential. We optimized prime editing agents to install an engineered sup-tRNA at a single genomic locus without overexpression and observed efficient readthrough of premature termi"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "to maximize the experimental outcome. Here, we summarize the current knowledge for guide RNA design and highlight discrepancies between different experimental systems."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "future screening of genetic strategies in a translational CF model, a machine learning algorithm was developed for dynamic quantification of CFTR function in organoids (DETECTOR: \"detection of targete"
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "BRCA1": {
+    "question": "How should I design guide RNAs to study BRCA1 function in DNA repair? What exons should I target?",
+    "response": "To study BRCA1 function in DNA repair via CRISPR-Cas9, you should use the top-ranked guide RNAs provided from the given context:\n\n**Top Guide RNA Sequence:** ACTGGCCAGTGATCCTCATG | Score: 90/100 | Position: 1405  \nThis sequence ranks highest among those tested and shows optimal scores in terms of GC content, seed region, poly-T, complexity, and position.\n\nTargeting exon regions within BRCA1 would be appropriate since they contain critical functional domains involved in DNA repair mechanisms. Specifically, focusing on exons known to encode key protein domains such as Exon 5, Exon 11, and Exon 21 could provide valuable insights into its role in DNA repair processes. These exons harbor important residues necessary for homologous recombination and other essential functions related to cancer susceptibility and tumor suppression associated with BRCA1 mutation carriers. \n\nFor further precision, consider validating these designs experimentally while ensuring off-target risk remains low based on the built-in function OCT assessment included in your data set. Additionally, explore if there’s potential benefit from utilizing dual-guide RNA systems like mentioned in source [6], though this might not",
+    "sources": [
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for BRCA1 gene targeting BRCA Cancer.\nComputationally ranked guide RNA sequences for BRCA1 using CRISPR-Cas9.\nUse these sequences for experimental design. All require w"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Get ready for the CRISPR/Cas system: A beginner's guide to the engineering and design of guide RNAs."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "cleave complementary target single-stranded RNAs, which represent a potentially safer alternative to deoxyribonuclease Cas9, because it induces loss-of-function phenotypes without genomic loss of the "
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "of outcome mapping are two existing problems for assigning guide RNA effects to variants in base editing screens. RESULTS: To improve the identification of pathogenic variants, we develop a framework "
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "systems, our scope will emphasize the latter approach. Hence, we present an overview of the past and the most recent guide RNA web-based design tools, highlighting the evolution of their computational"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "spCas9 as an ribonuclearprotein complex (RNP) is considered the most safe and effective method to apply Cas9 technology, and the efficacy of this system is critically dependent on the ability of Cas9 "
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "CEP290": {
+    "question": "What guide RNA design considerations are important for targeting CEP290 for Leber congenital amaurosis treatment?",
+    "response": "For targeting CEP290 for Leber congenital amaurosis (LCA) treatment, it is crucial to consider top-ranked guide RNAs based on computational scoring. According to [2], five highly scored guide RNAs are recommended:\n\n**Top Guide RNAs for CEP290 Targeting:**\n1. **ACTGGCTGAGGCTGATGCTA | Score: 90/100 | Position: 1499**\n   - High score indicating strong potential effectiveness.\n   \n2. **AACTGGCTGAGGCTGATGCT | Score: 87/100 | Position: 1498**\n\nThese two rank highest among others due to higher scores reflecting better performance metrics such as GC content, seed region quality, complexity, position, and low off-target risk (<built-in function oct>). \n\nAll selected guides must be validated experimentally before use to ensure they do not introduce unintended mutations or off-target effects, aligning with findings reported in studies where significant off-target activity was observed ([3]). Thus, thorough testing remains essential despite initial favorable computational predictions.",
+    "sources": [
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "to maximize the experimental outcome. Here, we summarize the current knowledge for guide RNA design and highlight discrepancies between different experimental systems."
+      },
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for CEP290 gene targeting Blindness (LCA).\nComputationally ranked guide RNA sequences for CEP290 using CRISPR-Cas9.\nUse these sequences for experimental design. All req"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "embryos, treated with a single guide RNA (sgRNA), and from their genetic parents, we found 43 off-targets, 30 of which were predicted by an adapted version of GUIDE-seq."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Validated CRISPR/Cas9 guide RNAs targeting neurodevelopmental genes in the tunicate Ciona robusta."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Abstract: Success with genome editing by the RNA-programmed nuclease Cas9 has been limited by the inability to predict effective guide RNAs and DNA target sites. Not all guide RNAs have been successfu"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "to expedite the design process. CHOPCHOP accepts a wide range of inputs (gene identifiers, genomic regions or pasted sequences) and provides an array of advanced options for target selection. It uses "
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  },
+  "BCR": {
+    "question": "How do I design a guide RNA to disrupt the BCR-ABL fusion gene in CML leukemia cells?",
+    "response": "To design a guide RNA to disrupt the BCR-ABL fusion gene in Chronic Myeloid Leukemia (CML) cells, you can use one of the top-ranked guide RNAs provided:\n\n**Guide RNA Sequence:** GCAGTCCATGACGGTGAAGA | Score: 90/100  \nThis sequence has an optimal GC-content of 55%, is positioned at base pair position 2539, and meets all other scoring criteria such as seed region, poly-T avoidance, complexity, and off-target risk assessment (<built-in function oct>).\n\nEnsure that this specific sequence undergoes wet-lab testing before proceeding with experiments to validate its effectiveness and specificity towards disrupting the BCR-ABL fusion gene without causing unintended edits elsewhere in the genome. The chosen guide RNA should be tested under controlled conditions to confirm it efficiently targets the intended site within the BCR-ABL fusion transcript while minimizing potential off-target effects. [Cell2-Scorer Source]\n\nFor additional guidance on designing multiple guide RNAs simultaneously or optimizing their performance through techniques like CRISPR RNA strings, refer to relevant literature sources available online. [PubMed Sources] [Web Tools] [Other Techniques]",
+    "sources": [
+      {
+        "source": "Cell2-Scorer",
+        "type": "guide",
+        "content": "CRISPR guide RNA design results for BCR gene targeting Leukemia.\nComputationally ranked guide RNA sequences for BCR using CRISPR-Cas9.\nUse these sequences for experimental design. All require wet lab "
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Direct Promoter Repression by BCL11A Controls the Fetal to Adult Hemoglobin Switch."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: A web tool for the design of prime-editing guide RNAs."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "through which to improve multisite-directed gene disruption by fusing four guide RNAs (sgRNAs or crRNAs) into a CRISPR RNA string."
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "method for calculating genetic interactions (GIs) from CRISPR-deleted gene pairs. We applied CDKO to generate a large-scale human GI map, comprising 490,000 double-sgRNAs directed against 21,321 pairs"
+      },
+      {
+        "source": "PubMed",
+        "type": "paper",
+        "content": "Title: Cpf1-Database: web-based genome-wide guide RNA library design for gene knockout screens using CRISPR-Cpf1."
+      }
+    ],
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "context": "RAG:retrieved papers+guide rna scores"
+  }
+}
