@@ -1,5 +1,4 @@
-```markdown
-# CRISPR-Cas9 Guide RNA Design System with RAG + LLM Ranking Pipeline
+## CRISPR-Cas9 Guide RNA Design System with RAG + LLM Ranking Pipeline
 
 A biomedical AI system that ranks optimal CRISPR guide RNAs using
 sequence scoring and retrieval-augmented generation, reducing manual
