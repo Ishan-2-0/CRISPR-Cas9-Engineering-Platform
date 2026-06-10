@@ -7,7 +7,7 @@ computational pipeline.
 
 ---
 
-## TL;DR
+## Summary
 
 A CRISPR-Cas9 guide RNA design system that:
 - Generates candidate guide RNAs from target gene sequences using PAM scanning
@@ -410,3 +410,8 @@ Biotechnology undergrad degree. Project 8 in a structured roadmap
 combining ML engineering with biomedical domain knowledge. The Bio + AI/ML combination is intentional
  this project sits at the intersection of ML systems and computational biology, 
  requiring both model-driven design and domain biological reasoning.
+
+ --- 
+
+ ## Live Demo
+Try it on Hugging face spaces:[ https://huggingface.co/spaces/i-chan/CRISPR-Cas9-Engineering-Platform-RAG](url)
